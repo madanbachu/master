@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "jasontocsvscript",
+				"fileName": "oracle",
 				"fileSystem": "output"
 			},
 			"columnDelimiter": ",",
