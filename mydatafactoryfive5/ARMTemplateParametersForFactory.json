@@ -11,6 +11,9 @@
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
+		"ds_oracle_connectionString": {
+			"value": ""
+		},
 		"ls_blob_connectionString": {
 			"value": ""
 		},

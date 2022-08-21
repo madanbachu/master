@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
 		},
+		"ds_oracle_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ds_oracle'"
+		},
 		"ls_blob_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_blob'"
@@ -69,6 +73,9 @@
 					},
 					"ls_snowflake_connectionString": {
 						"value": "[parameters('ls_snowflake_connectionString')]"
+					},
+					"ds_oracle_connectionString": {
+						"value": "[parameters('ds_oracle_connectionString')]"
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
