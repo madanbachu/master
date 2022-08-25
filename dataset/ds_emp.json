@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "switchcontainer/emp",
+				"fileName": "dummy1.txt",
 				"fileSystem": "mydata5"
 			},
 			"columnDelimiter": ",",
